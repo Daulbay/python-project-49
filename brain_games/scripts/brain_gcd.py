@@ -1,6 +1,6 @@
 import random
 from random import randint
-from brain_games.scripts.brain_games import main as welcome_user
+from brain_games.cli import welcome_user
 
 def main():
     name = welcome_user()
