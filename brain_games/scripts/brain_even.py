@@ -10,7 +10,7 @@ def main():
     count = 0
     while count < 3:
         num = randint(1,100)
-        print(f"Question:{num}")
+        print(f"Question: {num}")
 
         answer = input('Your answer: ')
 
